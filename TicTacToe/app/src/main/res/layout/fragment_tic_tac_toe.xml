@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/pixel_20dp"
+    android:paddingBottom="@dimen/pixel_20dp"
+    tools:context=".TicTacToeActivityFragment">
+
+    <GridLayout
+        android:layout_width="@dimen/pixel_440dp"
+        android:layout_height="@dimen/pixel_440dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/board"
+        android:id="@+id/board"
+        android:focusable="true"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <ImageView
+            android:layout_width="@dimen/pixel_100dp"
+            android:layout_height="@dimen/pixel_130dp"
+            android:id="@+id/imageView00"
+            android:layout_marginLeft="@dimen/pixel_3dp"
+            android:layout_marginRight="@dimen/pixel_12dp"
+            android:layout_marginTop="@dimen/pixel_10dp"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <ImageView
+            android:layout_width="@dimen/pixel_100dp"
+            android:layout_height="@dimen/pixel_130dp"
+            android:id="@+id/imageView01"
+            android:layout_marginRight="@dimen/pixel_12dp"
+            android:layout_marginTop="@dimen/pixel_10dp"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <ImageView
+            android:layout_width="@dimen/pixel_100dp"
+            android:layout_height="@dimen/pixel_130dp"
+            android:id="@+id/imageView02"
+            android:layout_marginTop="@dimen/pixel_10dp"
+            android:layout_row="0"
+            android:layout_column="2" />
+
+        <ImageView
+            android:layout_width="@dimen/pixel_100dp"
+            android:layout_height="@dimen/pixel_130dp"
+            android:id="@+id/imageView10"
+            android:layout_marginLeft="@dimen/pixel_3dp"
+            android:layout_marginRight="@dimen/pixel_12dp"
+            android:layout_marginTop="@dimen/pixel_16dp"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <ImageView
+            android:layout_width="@dimen/pixel_100dp"
+            android:layout_height="@dimen/pixel_130dp"
+            android:id="@+id/imageView11"
+            android:layout_marginRight="@dimen/pixel_12dp"
+            android:layout_marginTop="@dimen/pixel_16dp"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <ImageView
+            android:layout_width="@dimen/pixel_100dp"
+            android:layout_height="@dimen/pixel_130dp"
+            android:id="@+id/imageView12"
+            android:layout_marginTop="@dimen/pixel_16dp"
+            android:layout_row="1"
+            android:layout_column="2" />
+
+        <ImageView
+            android:layout_width="@dimen/pixel_100dp"
+            android:layout_height="@dimen/pixel_130dp"
+            android:id="@+id/imageView20"
+            android:layout_marginLeft="@dimen/pixel_3dp"
+            android:layout_marginRight="@dimen/pixel_12dp"
+            android:layout_marginTop="@dimen/pixel_16dp"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <ImageView
+            android:layout_width="@dimen/pixel_100dp"
+            android:layout_height="@dimen/pixel_130dp"
+            android:id="@+id/imageView21"
+            android:layout_marginRight="@dimen/pixel_12dp"
+            android:layout_marginTop="@dimen/pixel_16dp"
+            android:layout_row="2"
+            android:layout_column="1" />
+
+        <ImageView
+            android:layout_width="@dimen/pixel_100dp"
+            android:layout_height="@dimen/pixel_130dp"
+            android:id="@+id/imageView22"
+            android:layout_marginTop="@dimen/pixel_16dp"
+            android:layout_row="2"
+            android:layout_column="2" />
+    </GridLayout>
+
+</RelativeLayout>
